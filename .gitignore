@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Logs & temp
+*.log
+.DS_Store
+Thumbs.db
